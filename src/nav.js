@@ -26,7 +26,7 @@ const navBar = function () {
   const homeTab = document.createElement("div");
   homeTab.classList.add("tab");
   homeTab.id = "homeTab";
-  homeTab.textContent = "Home";
+  homeTab.textContent = "Contact";
 
   tabs.appendChild(homeTab);
 

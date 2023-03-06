@@ -33,7 +33,7 @@ img {
     width: 100vw;
     display: grid;
     grid-template-columns: minmax(auto, 300px) 1fr minmax(auto, 300px);
-    grid-template-rows: 100px 1fr 30px;
+    grid-template-rows: 110px 1fr 30px;
     grid-template-areas:
         "header header header"
         "leftMargin content rightMargin"
@@ -57,7 +57,7 @@ img {
     background-color: var(--wenge);
     color: var(--isabelline);
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
 }
 
 #restName {
@@ -141,4 +141,17 @@ img {
 #form {
     display:flex;
     flex-direction: column;
+}
+
+#textContainer {
+    border-radius: 20px;
+    margin: 25px;
+    padding: 20px;
+    background-color: var(--ecru);
+    display: grid;
+    gap: 15px;
+}
+
+.history {
+    color: var(--eerie-black);
 }
